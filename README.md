@@ -28,9 +28,11 @@
 * Cura: https://ultimaker.com/en/products/ultimaker-cura-software
 * Text editor, for example, Sublime text: https://www.sublimetext.com/
 * Slack mobile app and/or desktop app: https://slack.com/
+* Inkscape: https://inkscape.org
 
 
 ## Tutorial
+
 
 ### Creating a new Github issue
 
@@ -39,6 +41,7 @@
 * A new message will appear in Slack with the new issue (not instantly)
 * Clarification: Github issues are not always going to be the entry point of new tasks or jobs, but we need to know how to create one because they are part of the workflow at Bitfab.
 
+
 ### Cloning the repository with Github Desktop
 
 * Go to https://github.com/Bitfab-io/onboarding-tutorial
@@ -46,16 +49,25 @@
 	* Suggested paths: `user/repos/onboarding-tutorial`, `user/repos/Bitfab/onboarding-tutorial`
 * Open local repository
 
+
 ### Designing a new tool holder with FreeCAD
 
+* Create new file
+* Create new sketch
+
 * Exporting an STL file
-* Technical drawings
-* Exploded views or assemblies?
+
 
 ### Pushing changes to Github
 
+* Select files that you have changed and want to commit. Try to commit together the same type of changes.
+* Write a good commit message title and description.
+* Commit changes
+* Sync when you want to push changes to the remote repo.
+
 
 ### Slicing
+
 
 #### Most important slicing parameters
 
@@ -70,13 +82,40 @@
 	* Higher speeds give faster printing times but lower print quality.
 	* Typical values: Between 30 and 60mm/s
 * **Temperatures**
+	* Nozzle and bed temperatures should be set in the range suitable for the printing material. There are not good reasons for tweaking the temperatures between prints once the best settings have been found. Nevertheless, given a certain material: 
+		* Higher nozzle temperatures give easier flow but can result in material degradation, molten plastic oozing out of the noozle and part overheating issues.
+		* Higher bed temperatures can provide better first layer adhesion up to a certaing point but can cause overheating issues.
+	* PLA typical values: 200-220ºC nozzle, 50-60º bed. PLA can be printed in an unheated bed.
+	* PETG typical values: 230-240ºC nozzle, 70-80º bed. PETG cannot be printed in an unheated bed.
+	* Other materials: check manufacturer information or determine experimentally.
 * **Retraction**
+	* Retraction lengths and speeds depend on the extrusion system:
+		* Bowden setups require longer retraction lengths than direct drive setups (several millimiters).
+		* PTFE hotends accept longer retraction lengths than all metal hotends (several millimiters vs about one millimiter or less).
+		* Retraction speed can be set high as long as the extruder can keep up with the work (40mm/s and up).
 
+
+#### Configuring a slicing profile from scratch
+
+* Make a new slicing profile from a stock profile in the slicer
+
+
+#### Downloading the default profiles
+
+We don't have a repo yet with the default profiles.
+
+## Sending a job to the priter
+
+* SD card
+* Octoprint
 
 ### Documenting the print
 
 * Markdown
+* Technical drawings
+* Exploded views or assemblies? Maybe with the slot and tools
 * Photo of the print
+* Documenting in 2D with Inkscape
 
 ### Closing the issue
 
