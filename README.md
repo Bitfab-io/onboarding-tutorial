@@ -77,6 +77,7 @@ Copy the harvesting tool holder design with your tutor.
 
 ### Pushing changes to Github
 
+* Open Github Desktop
 * Select files that you have changed and want to commit. Try to commit together the same type of changes.
 * Write a good commit message title and description.
 * Commit changes
