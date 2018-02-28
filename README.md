@@ -49,6 +49,8 @@
 	* Suggested paths: `user/repos/onboarding-tutorial`, `user/repos/Bitfab/onboarding-tutorial`
 * Open local repository
 
+![](https://raw.githubusercontent.com/Bitfab-io/onboarding-tutorial/master/media/clone_repo.png)
+
 ### Creating a new operator folder
 
 * In your local repository, go to the subdirectory `operators`
@@ -56,8 +58,9 @@
 
 ### Designing a new tool holder with FreeCAD
 
-* Create new file
-* Create new sketch
+Copy the harvesting tool holder design with your tutor.
+
+![](https://github.com/Bitfab-io/onboarding-tutorial/raw/master/media/harvesting_tool_holder.png)
 
 #### Exporting STL file
 
