@@ -49,14 +49,28 @@
 	* Suggested paths: `user/repos/onboarding-tutorial`, `user/repos/Bitfab/onboarding-tutorial`
 * Open local repository
 
+### Creating a new operator folder
+
+* In your local repository, go to the subdirectory `operators`
+* Create a new folder with your name to upload your project
 
 ### Designing a new tool holder with FreeCAD
 
 * Create new file
 * Create new sketch
 
-* Exporting an STL file
+#### Exporting STL file
 
+`.stl` is the file extension most used for exchangind 3D printing models. Is the file that we are going to feed to the slicer software to generate the 3D printing job.
+
+* Open a FreeCAD file
+* Open the Mesh Design workbench
+* Select the feature you want to export to STL
+* Go to `Meshes > Create mesh from shape`
+* You can use the default tesellation method or Standard with 0.1mm surface deviation or choose any other. Click OK.
+* Select the mesh that has been generated
+* Go to `Meshes > Export mesh`
+* Choose a name and export the mesh to the directory of your choice.
 
 ### Pushing changes to Github
 
