@@ -49,6 +49,8 @@
 	* Suggested paths: `user/repos/onboarding-tutorial`, `user/repos/Bitfab/onboarding-tutorial`
 * Open local repository
 
+If you only need to download the content of the repository and you are not planning on contributing with the changes you can use the option "Download as a ZIP".
+
 ![](https://raw.githubusercontent.com/Bitfab-io/onboarding-tutorial/master/media/clone_repo.png)
 
 ### Creating a new operator folder
