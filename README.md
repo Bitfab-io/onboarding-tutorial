@@ -60,7 +60,7 @@ If you only need to download the content of the repository and you are not plann
 
 ### Designing a new tool holder with FreeCAD
 
-Copy the harvesting tool holder design with your tutor.
+Copy the harvesting tool holder design following the video tutorial: https://www.youtube.com/watch?v=VHa3Fn03R-Q
 
 ![](https://github.com/Bitfab-io/onboarding-tutorial/raw/master/media/harvesting_tool_holder.png)
 
